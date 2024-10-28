@@ -1,0 +1,49 @@
+@keyframes slideIn {
+	from {
+		transform: translateX(100%);
+		opacity: 0;
+	}
+	to {
+		transform: translateX(0);
+		opacity: 1;
+	}
+}
+
+.card {
+	animation: slideIn 0.3s ease-out;
+	transition: transform 0.3s ease;
+	position: relative;
+	background: url('ruta/a/tu/imagen.svg') no-repeat center center;
+	background-size: cover;
+	border: none;
+	padding: 20px;
+}
+
+.card__body {
+	text-align: center;
+	color: dark;
+	border-radius: 5px;
+	padding: 0;
+	line-height: 1.5;
+}
+
+.phrase {
+	margin: 0;
+	line-height: 1;
+}
+
+.author {
+	margin: 0;
+	line-height: 1;
+}
+
+.quote-icon {
+	font-size: 5.5rem;
+	color: #adadad;
+	font-family: serif;
+	margin-left: 130px;
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 0.35;
+	transition: font-size 0.3s ease;
+}
