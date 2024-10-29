@@ -13,7 +13,7 @@
 	animation: slideIn 0.3s ease-out;
 	transition: transform 0.3s ease;
 	position: relative;
-	background-image: url('/rectangle.svg') no-repeat center center;
+	background-image: url('/public/rectangle.svg') no-repeat center center;
 	background-size: cover;
 	border: none;
 	padding: 20px;
