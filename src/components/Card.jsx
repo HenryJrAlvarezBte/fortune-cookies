@@ -1,9 +1,10 @@
 import React from 'react';
 import './Card.css';
+import rectangleSVG from '/rectangle.svg';
 
 function Card({ phrase, author }) {
 	return (
-		<div className="card">
+		<div className="card" style={{ backgroundImage: `url(${rectangleSVG})` }}>
 			<div className="card__body">
 				<q className="phrase">{phrase}</q> <br />
 				<cite className="author">
